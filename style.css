@@ -156,6 +156,11 @@ h6 {
   margin: 0;
 }
 
+h1 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
 h2 {
   font-size: 18px;
 }
@@ -366,7 +371,6 @@ norma font size : 12px
   padding: 50px 26px 46px 26px;
 }
 .quote {
-   
   width: 100%;
   max-width: 908px;
   font-style: italic;
@@ -375,9 +379,6 @@ norma font size : 12px
   margin: 0 auto;
   color: #333333;
 }
-.quote p{font-size: 28px;
-  font-weight: 400;}
-  
 /* cards--------------------------------------------------------- */
 .cards {
   width: 100%;
@@ -478,11 +479,12 @@ norma font size : 12px
 
 .photos-gallery {
   display: inline-block;
+  margin-top: 18px;
 }
 .customer {
   width: 48%;
   display: inline-block;
-  margin-top: 18px;
+
   margin-right: 14px;
 }
 .customer:last-child {
@@ -502,7 +504,11 @@ norma font size : 12px
 .footer-section {
   width: 100%;
   background-color: #222222;
+}
+.footer-top {
   border-bottom: 1px solid #000000;
+}
+.footer-bottom {
   border-top: 1px solid #3a3a3a;
 }
 .footer-menu {
