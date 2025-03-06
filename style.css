@@ -156,11 +156,6 @@ h6 {
   margin: 0;
 }
 
-h1 {
-  font-size: 28px;
-  font-weight: 400;
-}
-
 h2 {
   font-size: 18px;
 }
@@ -171,6 +166,9 @@ h3 {
 
 h4 {
   font-size: 12px;
+}
+form {
+  width: 100%;
 }
 .container {
   width: 100%;
@@ -185,7 +183,7 @@ h4 {
   height: auto;
 }
 .form-field {
-  max-width: 160px;
+  /* max-width: 160px; */
   font-size: 12px;
   border: none;
   color: #3c3c3c;
@@ -221,17 +219,16 @@ norma font size : 12px
 
 .nav-contact_info {
   width: 100%;
+  padding: 4px;
 }
 .contains {
   width: 100%;
   display: inline-block;
 }
 .contact {
-  width: 50%;
-  max-width: 411px;
+  width: 49%;
   display: inline-block;
   text-align: left;
-  margin-right: 332px;
 }
 
 .contact-no {
@@ -243,10 +240,9 @@ norma font size : 12px
   color: #696969;
 }
 .search {
-  width: 22%;
+  width: 50.6%;
   display: inline-block;
   text-align: right;
-  padding: 4px;
 }
 .searchbar {
   width: 100%;
@@ -378,6 +374,10 @@ norma font size : 12px
   line-height: 30px;
   margin: 0 auto;
   color: #333333;
+}
+.quote p {
+  font-size: 28px;
+  font-weight: 400;
 }
 /* cards--------------------------------------------------------- */
 .cards {
@@ -516,17 +516,9 @@ norma font size : 12px
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.footer-2-cols,
-.footer-2-cols-2-rows {
-  width: 49%;
-  display: inline-block;
-}
 
-.footer-2-cols-2-rows {
-  vertical-align: top;
-}
 .footer-menu-item {
-  width: 49%;
+  width: 24%;
   display: inline-block;
   padding-right: 20px;
   vertical-align: top;
@@ -561,9 +553,9 @@ norma font size : 12px
   line-height: 18px;
 }
 /*--------------------------------------------------------------- quick links  */
-.quick-links {
+/* .quick-links {
   width: 44%;
-}
+} */
 .Q-links {
   padding-bottom: 6px;
   padding-top: 6px;
@@ -596,7 +588,6 @@ norma font size : 12px
 /* --------------------------------------------------------------------newsletter */
 .input-field {
   width: 100%;
-  max-width: 226px;
   display: block;
   padding: 11px 10px 10px 11px;
   margin-bottom: 10px;
@@ -617,12 +608,14 @@ norma font size : 12px
 }
 /*-------------------------------------------------------------------- COPYRIGHT SECTION ---------------------------------------------*/
 .copyright {
-  padding: 22px 20px;
+  padding-top: 22px;
+  padding-bottom: 22px;
 }
 .ctext {
   width: 49%;
   display: inline-block;
 }
 .template {
+  width: 50%;
   text-align: right;
 }
