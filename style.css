@@ -232,7 +232,7 @@ norma font size : 12px
 }
 
 .contact-no {
-  margin-right: 10%;
+  margin-right: 30px;
 }
 .contact-no,
 .email {
@@ -281,6 +281,7 @@ norma font size : 12px
 
 .navigation {
   width: 100%;
+  padding: 22px 0 22px 0;
   background-color: #222222;
   color: #ffffff;
   border-bottom: 4px solid #7c9c37;
@@ -292,7 +293,6 @@ norma font size : 12px
 }
 .nav-logo {
   width: 20%;
-  margin: 22px 0 22px 0;
 }
 .nav-menu {
   width: 79%;
@@ -518,7 +518,7 @@ norma font size : 12px
 }
 
 .footer-menu-item {
-  width: 24.6%;
+  width: 24%;
   display: inline-block;
   padding-right: 20px;
   vertical-align: top;
