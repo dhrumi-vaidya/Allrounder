@@ -156,11 +156,6 @@ h6 {
   margin: 0;
 }
 
-h1 {
-  font-size: 28px;
-  font-weight: 400;
-}
-
 h2 {
   font-size: 18px;
 }
@@ -371,6 +366,8 @@ norma font size : 12px
   padding: 50px 26px 46px 26px;
 }
 .quote {
+   font-size: 28px;
+  font-weight: 400;
   width: 100%;
   max-width: 908px;
   font-style: italic;
